@@ -27,7 +27,7 @@
         </tr>
         <tr>
             <td>Date release</td>
-            <td><input type="text" value="${product.dateRelease}" placeholder="dd/MM/yyyy" name="dateRelease"/></td>
+            <td><input type="date" value="${product.dateRelease}" placeholder="dd/MM/yyyy" name="dateRelease"/></td>
         </tr>
         <tr>
             <td>Category</td>
@@ -40,10 +40,10 @@
                 </select>
             </td>
         </tr>
-        <tr>
-            <td>Origin</td>
-            <td><input type="text" name="origin" value="${product.origin}"></td>
-        </tr>
+<%--        <tr>--%>
+<%--            <td>Origin</td>--%>
+<%--            <td><input type="text" name="origin" value="${product.origin}"></td>--%>
+<%--        </tr>--%>
         <tr>
             <td colspan="2">
                 <input type="submit" value="Edit">

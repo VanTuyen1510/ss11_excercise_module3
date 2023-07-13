@@ -18,7 +18,7 @@
         <th>Price</th>
         <th>Date release</th>
         <th>Category</th>
-        <th>Origin</th>
+<%--        <th>Origin</th>--%>
     </tr>
     <c:forEach items="${products}" var="p">
         <br>
@@ -32,7 +32,7 @@
             <fmt:formatDate value="${p.dateRelease}" pattern="dd/MM/yyyy" />
         </td>
         <td>${p.category.name}</td>
-        <td>${p.origin}</td>
+<%--        <td>${p.origin}</td>--%>
         </tr>
     </c:forEach>
 </table>

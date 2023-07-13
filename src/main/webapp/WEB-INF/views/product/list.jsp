@@ -10,6 +10,8 @@
 
 
 <table border="1">
+
+    <h2><a href="/product?action=create">Add new product</a></h2>
     <tr>
         <form method="post" action="/product">
             <label>Product Name:</label>
@@ -27,8 +29,7 @@
         <th>Price</th>
         <th>Date release</th>
         <th>Category</th>
-        <th>Origin</th>
-        <th>Create</th>
+<%--        <th>Origin</th>--%>
         <th>Edit</th>
         <th>Delete</th>
     </tr>
@@ -44,8 +45,7 @@
                 <fmt:formatDate value="${p.dateRelease}" pattern="dd/MM/yyyy" />
             </td>
             <td>${p.category.name}</td>
-            <td>${p.origin}</td>
-            <td><a href="/product?action=create">Add new product</a></td>
+<%--            <td>${p.origin}</td>--%>
             <td><a href="/product?action=edit&id=${p.id}">Edit Product</a></td>
             <td><a href="/product?action=delete&id=${p.id}">Delete Product</a></td>
 <%--            <td><a href="/product?action=search&name=${p.name}">Search Name</a> </td>--%>

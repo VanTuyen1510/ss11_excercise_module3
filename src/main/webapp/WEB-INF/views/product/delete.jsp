@@ -40,10 +40,10 @@
                 </select>
             </td>
         </tr>
-        <tr>
-            <td>Origin</td>
-            <td><input type="text" name="origin" value="${product.origin}"></td>
-        </tr>
+<%--        <tr>--%>
+<%--            <td>Origin</td>--%>
+<%--            <td><input type="text" name="origin" value="${product.origin}"></td>--%>
+<%--        </tr>--%>
         <tr>
             <td colspan="2">
                 <input type="submit" value="Delete">

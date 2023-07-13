@@ -17,7 +17,7 @@
             <th>Price</th>
             <th>Date release</th>
             <th>Category</th>
-            <th>Origin</th>
+<%--            <th>Origin</th>--%>
 
         </tr>
 
@@ -30,7 +30,7 @@
                 <fmt:formatDate value="${requestScope['products'].dateRelease}" pattern="dd/MM/yyyy"/>
             </td>
             <td>${requestScope["products"].category.name}</td>
-            <td>${requestScope["products"].origin}</td>
+<%--            <td>${requestScope["products"].origin}</td>--%>
 
         </tr>
         <input type="hidden" name="action" value="detail"/>
